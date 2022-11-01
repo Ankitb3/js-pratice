@@ -119,9 +119,56 @@
 // }
 
 
-let a=20;
-if(a=30 && 10 ){
-   console.log("true")
-}else{
-    console.log("false")
-}
+// let a=20;
+// if(a=30 && 10 ){
+//    console.log("true")
+// }else{
+//     console.log("false")
+// }
+
+// *********************Es6 concepts************************
+
+// ****promises******
+// function promise(){
+// let p1=new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         console.log("im p1")
+//         resolve(true)
+//     },2000)
+// })
+//     let p2 = new Promise((resolve,reject)=>
+//     {
+//         setTimeout(()=>{
+//             console.log("im p2")
+//             reject(false)
+//         },4000)
+//     })
+// // }
+// // to  get the value
+// p1.then((value)=>{
+//     console.log(value)
+// })
+//to get catch  
+// p2.catch((error)=>{
+//     console.log("some error catch in p2")
+// })
+
+
+
+
+ 
+//    function ngpw(){
+//     setTimeout(() => {
+//          console.log("21")
+//      }, 3000)
+    
+//  }
+//    function punew(){
+
+//      setTimeout(() => {
+//          console.log("30")
+//      }, 1000)
+//  }
+
+
+ 
