@@ -172,3 +172,46 @@
 
 
  
+// *****************json**********************
+// json means js object notation
+
+// const students =[{
+//        name:'Ankit',
+//        course:"mernstack",
+//        duration:"6 months",
+//        fess:"5000"
+// },{
+//     name: 'mukesh',
+//     course: "reactjs",
+//     duration: "6 months",
+//     fess: "1000"
+// },{
+//     name: 'abhishek',
+//     course: "python",
+//     duration: "2 months",
+//     fess: "2000"
+// }]
+
+// students.map((student)=>{
+//     console.log(student["duration"])
+// })
+//***using foreach loop */
+//   students.forEach((student)=>{
+//     //  console.log(student["name"],student["fess"])
+//     console.log("hello my name is" + " " + student["name"])
+//   })
+
+  //****using map*** */
+// students.map((student) => {
+//     //  console.log(student["name"],student["fess"])
+//     console.log("hello my name is" + " " + student["name"])
+// })
+
+
+// *******templet string*******
+// let a=10;
+// let b=20
+// let a = "hello im ankit\n";
+// let b = "im web devloper"
+// console.log(`${a+b}`)
+
